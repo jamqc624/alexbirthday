@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex's Birthday</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+</head>
+
+<body>
+    <!-- Audio element to play music -->
+    <audio id="audio" preload="metadata"></audio>
+    
+    <!-- Music Player UI -->
+    <div class="music-player">
+        <h1 class="song-name">I Know You Know</h1>
+        <p class="artist-name">CHSKA</p>
+        
+        <div class="disk"></div>
+        
+        <div class="song-slider">
+            <input type="range" class="seek-bar" value="0" min="0">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+
+        <div class="controls">
+            <button class="btn backward-btn"><i class="fas fa-backward"></i></button>
+            <button class="play-btn"></button>
+            <button class="btn forward-btn"><i class="fas fa-forward"></i></button>
+        </div>
+
+   
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
